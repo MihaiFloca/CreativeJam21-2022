@@ -1,12 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://b0ffuox4fjtda"]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource type="Script" path="res://Scripts/game.gd" id="1"]
-[ext_resource type="PackedScene" uid="uid://doarudmil46rj" path="res://Scenes/Level1/Future.tscn" id="2"]
-[ext_resource type="PackedScene" path="res://Scenes/Level1/Present.tscn" id="3"]
+[ext_resource path="res://Scenes/Level1/Present.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/game.gd" type="Script" id=2]
 
 [node name="Game" type="Node"]
-script = ExtResource("1")
+script = ExtResource( 2 )
 
-[node name="Present" parent="." instance=ExtResource("2")]
-
-[node name="Future" parent="." instance=ExtResource("3")]
+[node name="Present" parent="." instance=ExtResource( 1 )]
