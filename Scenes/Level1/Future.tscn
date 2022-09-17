@@ -124,7 +124,7 @@
 1/shapes = [  ]
 1/z_index = 0
 
-[node name="Present" type="Node2D"]
+[node name="Future" type="Node2D"]
 
 [node name="Terrain" type="TileMap" parent="."]
 tile_set = SubResource( 1 )
@@ -136,7 +136,7 @@ tile_data = PoolIntArray( 0, 4, 0, 1, 4, 0, 2, 4, 0, 3, 4, 0, 4, 4, 0, 5, 4, 0, 
 tile_set = SubResource( 2 )
 cell_size = Vector2( 16, 16 )
 format = 1
-tile_data = PoolIntArray( 65541, 1, 0, 131073, 0, 0, 196610, 0, 0, 196614, 1, 0 )
+tile_data = PoolIntArray( 65541, 1, 0, 131073, 0, 0, 131081, 1, 0, 131082, 1, 0, 196610, 0, 0, 196614, 1, 0, 196617, 1, 0, 196619, 1, 0, 262153, 1, 0, 262155, 1, 0, 327689, 1, 0, 327690, 1, 0, 327691, 1, 0 )
 
 [node name="Player" type="Node2D" parent="."]
 position = Vector2( 8, 8 )
